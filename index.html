@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 79</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="functions.js"></script>
+    </head>
+    <body>
+        <nav class="navbar-inverse my_nav_bar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" id="toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">PIZZERIA</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#AddItem">Add Item</a></li>
+                </ul>
+            </div>
+        </nav> 
+        <h1 id="heading">PIZZERIA</h1>
+        <section id="Menu">
+            <span><img src="pizza.png" width="550" height="550"></span>
+            <span><button type="button" id="Show_menu" onclick="showMenu()">Show Menu</button></span>  
+            <div id="display_menu"></div>
+            </section>
+            <br>
+            <section id="AddItem">
+                <h1 id="heading2">Add Item</h1>
+                <input type="text" id="input" placeholder="Type a pizza">
+                <button type="button" id="recommend" onclick="menuAddItem()">Recommend A Pizza</button>
+                <div id="display_new"></div>
+            </section>
+    </body>
+</html>

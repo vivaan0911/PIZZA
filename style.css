@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-image: url(Bg.jpg);
+}
+#display_menu{
+    background-color: deeppink;
+    color: chartreuse;
+    font-size: 20px;
+    font-family: Kristen ITC;
+}
+#Show_menu {
+    background-color: blue;
+    color: darkseagreen;
+    font-size: 25px;
+    font-family: Magneta;
+}
+#display_new{
+    background-color: chartreuse;
+    color: deeppink;
+    font-size: 20px;
+    font-family: Kristen ITC;
+}
+#recommend {
+    background-color: firebrick;
+    color: greenyellow;
+    font-size: 25px;
+    font-family: cursive;
+}
+#input {
+    background-color: indigo;
+    color: magenta;
+    font-size: 25px;
+    font-family: fantasy;
+}
+#heading {
+    background-color:mediumaquamarine;
+    color: magenta;
+    font-size: 35px;
+    font-family: Magneta;
+}
+#heading2 {
+    background-color:mediumaquamarine;
+    color: magenta;
+    font-size: 35px;
+    font-family: Magneta;  
+}
